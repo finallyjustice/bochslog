@@ -21,7 +21,7 @@ This is the instrumentation code for Bochs. It's been tested with Bochs 2.6.2.
 
 1. Copy mytool to bochs-code/instrument/mytool
 2. Install xorg-dev library
-3. ./configure --enable-instrumentation="instrument/stubs"  --prefix=/debug/bochs --enable-debugger
+3. ./configure --enable-instrumentation="instrument/mytool" --prefix=/debug/bochs --enable-debugger
 
 After you boot the OS:
 
